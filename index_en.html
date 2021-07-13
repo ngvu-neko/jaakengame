@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="jaken_en.js"></script>
+  </head>
+  <body>
+
+
+    <!--Main_box-->
+
+
+    <div class="box">
+
+      <div class="frist">
+        <h1>Welcom To Jakken Game</h1>
+      </div>
+      <div class = "img-icon">
+        <img src="img/icons8-hand-50.png" width = 50px, height=50px>
+        <img src="img/icons8-hand-rock-50.png" width = 55px, height=55px>
+        <img src= "img/icons8-hand-scissors-50.png" width = 50px, height=50px>
+      </div>
+
+      <!-- inputbox -->
+
+
+      <div class="input_box">
+
+        <form action="">
+          <lable id='amount' for='nameField'></lable>
+          <input id='amount_box' type='text' maxlength='3' placeholder="Number of people (Eg：1,2,..)" ></input>
+          <div class='form-sub'>
+            <button id='subButton' type='button' onclick=findReslut()>Start</button>
+          </div>
+        </form>
+        <div class="find">
+          <button  id='subButton' type='button' onclick=findWinner_main()>Find</button>
+        </div>
+      </div>
+
+
+      <!-- pirnt reslut -->
+
+      <p id = "result"></p>
+
+      <!-- Rule -->
+
+      <div class="ruru">
+        <strong>Rule :</strong>
+        <p>*This site is a site that you can play rock-paper-scissors games with a large number of people, and the computer will automatically search for winner (Goo, Par, Choki). 。</p>
+        <p>*First,You have to enter the number of people in the input box if you press the Start button to get the result. </p>
+        <p>*If you press the FIND button, the winning result can be calculated automatically. </p>
+      </div>
+
+      <p id  = "lang"><a href="index.html">JP</a></p>
+
+
+    </div>
+
+  </body>
+
+</html>
